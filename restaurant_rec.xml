@@ -1,1 +1,59 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+ <restaurants_recommendation>
+  <speciality type="Steak House">
+    <info>
+     <listing>FIRE</listing>
+     <price>70.0</price>
+    </info>
+    <info>
+     <listing>SIX</listing>
+     <price>90.0</price>
+    </info>
+    <info vegan="true">
+     <listing>PIKE</listing>
+     <price>45.0</price>
+    </info>
+  </speciality>
+  <speciality type="Sea Food">
+  <info>
+    <listing>SOLE</listing>
+    <price>80.0</price>
+    </info>
+    <info>
+     <listing>The Stage Door</listing>
+     <price>30.0</price>
+    </info>
+    <info vegan="true">
+     <listing>Thomakawk</listing>
+     <price>55.0</price>
+    </info>
+  </speciality>
+  <speciality type="Spanish Food">
+  <info>
+    <listing>Las Tapas de Lola</listing>
+    <price>30.0</price>
+    </info>
+    <info>
+     <listing>Sallamanca</listing>
+     <price>40.0</price>
+    </info>
+    <info vegan="true">
+     <listing>La passion</listing>
+     <price>50.0</price>
+    </info>
+  </speciality>
+  <speciality type="Irish Food">
+  <info>
+    <listing>DIME</listing>
+    <price>30.0</price>
+    </info>
+    <info>
+    <listing>The Quays</listing>
+    <price>60.0</price>
+    </info>
+    <info>
+     <listing>Wellington PUB</listing>
+     <price>50.0</price>
+    </info>
+  </speciality>
+ </restaurants_recommendation>
