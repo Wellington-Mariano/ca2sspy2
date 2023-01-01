@@ -29,9 +29,9 @@
     </info>
   </speciality>
   <speciality type="Spanish Food">
-  <info>
-    <listing>Las Tapas de Lola</listing>
-    <price>30.0</price>
+    <info>
+     <listing>Las Tapas de Lola</listing>
+     <price>30.0</price>
     </info>
     <info>
      <listing>Sallamanca</listing>
@@ -46,14 +46,14 @@
   <info>
     <listing>DIME</listing>
     <price>30.0</price>
-    </info>
-    <info>
+  </info>
+  <info>
     <listing>The Quays</listing>
     <price>60.0</price>
-    </info>
-    <info>
-     <listing>Wellington PUB</listing>
-     <price>50.0</price>
-    </info>
+  </info>
+  <info>
+    <listing>Wellington PUB</listing>
+    <price>50.0</price>
+  </info>
   </speciality>
  </restaurants_recommendation>
