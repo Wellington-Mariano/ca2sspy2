@@ -42,7 +42,7 @@ function calculateBill(idMenuTable) {
 
 // This function either turns on or off the row highlighting for decaf
 // items (depending on the value of bShowDecaf)
-function highlightDecaf(idTable, bShowDecaf) {
+function highlightVegan(idTable, bShowVegan) {
     // if bShowDecaf is true, then we're highlighting decaf
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
@@ -52,8 +52,8 @@ function highlightDecaf(idTable, bShowDecaf) {
     // walk through each of the table rows and see if it has a 
     // "decaf" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('decaf') && aTRs[i].getAttribute('decaf') == "true") {
-            if (bShowDecaf) {
+        if (aTRs[i].getAttribute('vegan') && aTRs[i].getAttribute('vegan') == "true") {
+            if (bShowVegan) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {
                 aTRs[i].style.backgroundColor = "";
@@ -78,7 +78,7 @@ window.addEventListener("load", function() {
     document.querySelector("#calcBill").addEventListener("click", function() {
         document.forms[0].txtBillAmt.value = calculateBill('menuTable');
     });
-    document.querySelector("#showDecaf").addEventListener("click", function() {
-        highlightDecaf('menuTable', this.checked);
+    document.querySelector("#showVegan").addEventListener("click", function() {
+        highlightVegan('menuTable', this.checked);
     });
 }); 
